@@ -1,3 +1,4 @@
 [submodule "sparrow-ls"]
 	path = sparrow-ls
 	url = https://github.com/rhumbertgz/sparrow-ls
+	branch = master
