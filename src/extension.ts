@@ -24,7 +24,7 @@ export function activate(context: ExtensionContext) {
     platform() == "win32" ? "language_server.bat" : "language_server.sh";
 
   const serverOpts = {
-    command: context.asAbsolutePath("./elixir-ls-release/" + command)
+    command: context.asAbsolutePath("./sparrow-ls-release/" + command)
   };
 
   // If the extension is launched in debug mode then the debug server options are used
