@@ -11,7 +11,7 @@
   "author": "Humberto Rodriguez Avila",
   "license": "MIT",
   "publisher": "rhumbertgz",
-  "version": "0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.25.1"
   },
@@ -328,8 +328,8 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "tsc -p ./ && cp elixir-ls/CHANGELOG.md . && cd elixir-ls && mix elixir_ls.release -o ../elixir-ls-release",
-    "compile": "tsc -p ./ && cd elixir-ls && mix elixir_ls.release -o ../elixir-ls-release",
+    "vscode:prepublish": "tsc -p ./ && cp sparrow-ls/CHANGELOG.md . && cd sparrow-ls && mix elixir_ls.release -o ../sparrow-ls-release",
+    "compile": "tsc -p ./ && cd sparrow-ls && mix elixir_ls.release -o ../sparrow-ls-release",
     "update-vscode": "node ./node_modules/vscode/bin/install",
     "postinstall": "node ./node_modules/vscode/bin/install"
   },
