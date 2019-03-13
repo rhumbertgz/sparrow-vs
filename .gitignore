@@ -2,8 +2,8 @@ out
 node_modules
 *.vsix
 
-# We store the build artifacts from ElixirLS here
-/elixir-ls-release
+# We store the build artifacts from SparrowLS here
+/sparrow-ls-release
 
-# We copy the CHANGELOG.md from ./elixir-ls/CHANGELOG.md in vscode:prepublish
+# We copy the CHANGELOG.md from ./sparrow-ls/CHANGELOG.md in vscode:prepublish
 /CHANGELOG.md
