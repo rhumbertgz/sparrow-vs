@@ -1,17 +1,17 @@
 {
-  "name": "elixir-ls",
-  "displayName": "ElixirLS: Elixir support and debugger",
-  "homepage": "https://github.com/JakeBecker/elixir-ls",
+  "name": "sparrow-vs",
+  "displayName": "Sparrow DSL extension for VS Code.",
+  "homepage": "https://github.com/rhumbertgz/sparrow-vs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JakeBecker/vscode-elixir-ls.git"
+    "url": "https://github.com/rhumbertgz/sparrow-vs.git"
   },
   "icon": "images/logo.png",
-  "description": "Elixir support with debugger, autocomplete, and more. Powered by ElixirLS.",
-  "author": "Jake Becker",
+  "description": "Sparrow DSL extension for VS Code. Powered by ElixirLS.",
+  "author": "Humberto Rodriguez Avila",
   "license": "MIT",
-  "publisher": "JakeBecker",
-  "version": "0.2.24",
+  "publisher": "rhumbertgz",
+  "version": "0.1",
   "engines": {
     "vscode": "^1.25.1"
   },
@@ -37,7 +37,7 @@
       }
     },
     "configuration": {
-      "title": "ElixirLS configuration",
+      "title": "SparrowVS configuration",
       "properties": {
         "elixirLS.dialyzerEnabled": {
           "type": "boolean",
@@ -106,7 +106,7 @@
           ".ex",
           ".exs"
         ],
-        "configuration": "./elixir-language-configuration.json"
+        "configuration": "./sparrow-dsl-configuration.json"
       },
       {
         "id": "Eex",
@@ -134,7 +134,7 @@
       {
         "language": "elixir",
         "scopeName": "source.elixir",
-        "path": "./syntaxes/elixir.json"
+        "path": "./syntaxes/sparrow.json"
       },
       {
         "language": "Eex",
@@ -157,13 +157,13 @@
         "type": "mix_task",
         "label": "Mix Task",
         "windows": {
-          "program": "elixir-ls-release/debugger.bat"
+          "program": "sparrow-ls-release/debugger.bat"
         },
         "linux": {
-          "program": "elixir-ls-release/debugger.sh"
+          "program": "sparrow-ls-release/debugger.sh"
         },
         "osx": {
-          "program": "elixir-ls-release/debugger.sh"
+          "program": "sparrow-ls-release/debugger.sh"
         },
         "languages": [
           "elixir"
