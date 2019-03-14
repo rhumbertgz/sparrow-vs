@@ -105,7 +105,7 @@
       "name": "constant.other.symbol.elixir"
     },
     {
-      "match": "(?<!\\.)\\b(pattern|reaction|react_to|remove|remove_reactions|do|end|case|bc|lc|for|if|cond|with|unless|try|receive|fn|defmodule|defprotocol|defimpl|defrecordp?|defstruct|defdelegate|defcallback|defexception|defoverridable|defguardp?|exit|after|rescue|catch|else|raise|throw|quote|unquote|super|when|and|or|not|in)\\b(?![?!])",
+      "match": "(?<!\\.)\\b(pattern|reaction|react_to|remove|remove_reactions|as|do|end|case|bc|lc|for|if|cond|with|unless|try|receive|fn|defmodule|defprotocol|defimpl|defrecordp?|defstruct|defdelegate|defcallback|defexception|defoverridable|defguardp?|exit|after|rescue|catch|else|raise|throw|quote|unquote|super|when|and|or|not|in)\\b(?![?!])",
       "name": "keyword.control.elixir"
     },
     {
