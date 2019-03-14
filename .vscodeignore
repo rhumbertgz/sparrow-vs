@@ -1,4 +1,4 @@
-elixir-ls/**
+sparrow-ls/**
 .vscode/**
 typings/**
 out/test/**
